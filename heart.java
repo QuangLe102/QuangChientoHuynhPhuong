@@ -6,7 +6,7 @@ public class iloveyou
             for (float x = -2.3f; x < 2.3f; x += 0.041f){
                 float a = x*x+y*y-4f;
                 if ((a*a*a-x*x*y*y*y)<-0.0F){
-                    String str="I LOVE YOU!";
+                    String str="QuangChientoHuynhPhuong!";
                     int num =count%str.length();
                     System.err.print(str.charAt(num));
                     count++; 
